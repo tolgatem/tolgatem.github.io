@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic website of Tolga Temiz, PhD student in mathematics at Michigan State University." />
+  <title>Tolga Temiz | Mathematics</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="name-link" href="#top">Tolga Temiz</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#mentoring">Mentoring</a>
+        <a href="#contact">Contact</a>
+        <a href="Tolga-Temiz-CV.pdf">CV</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="eyebrow">Mathematics · Michigan State University</p>
+        <h1>Tolga Temiz</h1>
+        <p class="subtitle">PhD Student in Mathematics</p>
+        <p class="intro">
+          I am a PhD student in mathematics at Michigan State University,
+          working in algebraic topology and homotopy theory.
+        </p>
+        <div class="hero-links">
+          <a class="button primary" href="Tolga-Temiz-CV.pdf">View CV</a>
+          <a class="button secondary" href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="portrait-wrapper">
+        <img class="portrait" src="portrait.jpg" alt="Professional portrait of Tolga Temiz" />
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-label">About</div>
+      <div class="section-content">
+        <h2>About me</h2>
+        <p>
+          I am a PhD student in mathematics at Michigan State University,
+          advised by Teena Gerhardt. My research interests lie broadly in
+          algebraic topology, algebraic K-theory, and homotopy theory.
+        </p>
+        <p>
+          Before coming to Michigan State, I completed my M.Sc. and B.S. in
+          mathematics at Koç University. My master's advisor was Burak Özbağcı.
+          I am also interested in mathematical exposition, teaching, and mentoring.
+        </p>
+      </div>
+    </section>
+
+    <section id="research" class="section container">
+      <div class="section-label">Research</div>
+      <div class="section-content">
+        <h2>Research interests</h2>
+        <div class="interest-grid">
+          <span>Algebraic topology</span>
+          <span>Algebraic K-theory</span>
+          <span>Homotopy theory</span>
+        </div>
+        <p class="small-note">
+          Publications, preprints, talks, and research notes will be added here as they become available.
+        </p>
+      </div>
+    </section>
+
+    <section id="teaching" class="section container">
+      <div class="section-label">Teaching</div>
+      <div class="section-content">
+        <h2>Teaching experience</h2>
+        <div class="teaching-group">
+          <h3>Michigan State University</h3>
+          <div class="teaching-list">
+            <article>
+              <h4>MTH 235 · Calculus IV</h4>
+              <p>Instructor · Spring 2026</p>
+            </article>
+            <article>
+              <h4>MTH 234 · Calculus III</h4>
+              <p>Teaching Assistant · Summer 2023–Fall 2025</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="teaching-group">
+          <h3>Koç University</h3>
+          <div class="teaching-list">
+            <article><h4>Differential Geometry</h4><p>Teaching Assistant</p></article>
+            <article><h4>Linear Algebra</h4><p>Teaching Assistant</p></article>
+            <article><h4>Complex Analysis</h4><p>Teaching Assistant</p></article>
+            <article><h4>Calculus</h4><p>Teaching Assistant · Various courses</p></article>
+          </div>
+        </div>
+
+        <p class="award-note"><strong>Teaching recognition:</strong> TA Award for Excellence in Teaching, 2024–2025.</p>
+      </div>
+    </section>
+
+    <section id="mentoring" class="section container">
+      <div class="section-label">Mentoring</div>
+      <div class="section-content">
+        <h2>Mentoring</h2>
+        <div class="teaching-list">
+          <article><h4>Topology Summer School</h4><p>Project Mentor · Summer 2026</p></article>
+          <article><h4>Topology Summer School</h4><p>Project Mentor · Summer 2024</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <div class="section-label">Contact</div>
+      <div class="section-content">
+        <h2>Contact</h2>
+        <p>
+          Department of Mathematics<br />
+          Michigan State University<br />
+          East Lansing, Michigan
+        </p>
+        <p>
+          <a href="mailto:temiztol@msu.edu">temiztol [at] msu [dot] edu</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© <span id="year"></span> Tolga Temiz</p>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
